@@ -29,10 +29,10 @@ public class PlayList {
     private Audio audio;
 
     @Column(nullable = false)
-    private Integer plyLisNo;
+    private Integer playListNo;
 
     @Column(length = 60)
-    private String plyLisName;
+    private String playListName;
 
     private LocalDateTime addedAt;
 

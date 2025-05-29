@@ -1,8 +1,8 @@
 package com.latest.allmic.entity.audio;
 
-import com.latest.allmic.entity.audioGenre.AudioGenre;
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.sql.exec.spi.StandardEntityInstanceResolver;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;
@@ -25,6 +25,9 @@ public class Audio {
 
     @Column(length = 2000)
     private String description;
+
+    @Column(nullable = false)
+    private String audioProfileURL;
 
     @Column(nullable = false)
     private String audioURl;

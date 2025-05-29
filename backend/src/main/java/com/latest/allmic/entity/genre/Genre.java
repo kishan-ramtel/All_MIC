@@ -1,7 +1,7 @@
 package com.latest.allmic.entity.genre;
 
 
-import com.latest.allmic.entity.audioGenre.AudioGenre;
+import com.latest.allmic.entity.audio.AudioGenre;
 import jakarta.persistence.*;
 import lombok.*;
 
